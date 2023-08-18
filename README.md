@@ -1,19 +1,20 @@
 # Moving Object detection and tracking with Bird's Eye View Simulation
 
 ## Table of Contents 📑
-- [Overview](##Overview)
-- [YOLOv5 Overview](##YOLOv5-Overview)
-- [Requirements](##Requirements)
-- [Installation](##Installation)
-- [Usage/Examples](##Usage/Examples)
-- [Customization](##Customization)
-- [Initialization](##Initialization)
-- [Video Processing](##Video-Processing)
-- [Post Processing and Visualization](##Post-Processing-and-Visualization)
-- [Cleanup](##Cleanup)
-- [Result](##Result)
-- [Acknowledgements](##Acknowledgements)
-- [Authors](##Authors)
+
+- [Overview](#overview-)
+- [YOLOv5 Overview](#yolov5-overview-)
+- [Requirements](#requirements-)
+- [Installation](#installation-)
+- [Usage/Examples](#usage-examples-)
+- [Customization](#customization-)
+- [Initialization](#initialization-)
+- [Video Processing](#video-processing-)
+- [Post Processing and Visualization](#post-processing-and-visualization-)
+- [Cleanup](#cleanup-)
+- [Result](#result-)
+- [Acknowledgements](#acknowledgements-)
+- [Authors](#authors-)
 
 
 ## Overview 🎯
@@ -37,39 +38,40 @@ YOLOv5 is a single-shot detector. It means it requires only one forward pass thr
 
 ## Installation 📥
 
-1. **Clone the repository**:
+1. *Clone the repository*:
 
-```bash
+bash
 git clone [https://github.com/your-username/your-repo](https://github.com/ACM40960/project-Dhiraj-Lala).git
 cd your-repo
 
-```
 
-2. **Install the required packages**:
 
-```bash
+2. *Install the required packages*:
+
+bash
 pip install opencv-python==4.8.0
 pip install numpy==1.21.5
 pip install torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install torchvision==0.15.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install matplotlib==3.5.1
 
-```
 
-3. **Jupyter Notebook**: To run the provided Jupyter Notebook, install and start Jupyter:
 
-```bash
+3. *Jupyter Notebook*: To run the provided Jupyter Notebook, install and start Jupyter:
+
+bash
 pip install jupyter
 jupyter notebook
 
-```
 
-## Usage/Examples 🚀
+
+## Usage Examples 🚀
 
 1. Place the video file you want to process in the repository directory.
 
-2. Update the path_input_video (with the extension .mov) and path_output_video (with the extension .mp4) variables in the script with the path to your input video.
-3. Download the picture MyCar.png (https://github.com/ACM40960/project-Dhiraj-Lala/blob/main/DataSet/MyCar.png) from the repository and put the path to the image in your local system in the overlay_img variable.
+2. Update the path_input_video (with the extension .mov) and path_output_video (with the extension .mp4) variables in the script with the path to your input video. You can download the dataset from https://github.com/ACM40960/project-Dhiraj-Lala/blob/main/DataSet.
+   
+3. Download the picture MyCar.png' from the DataSet(https://github.com/ACM40960/project-Dhiraj-Lala/blob/main/DataSet/MyCar.png) and put the path of the image in your local system in the overlay_img variable.
 
 4. Run the script.
 
@@ -79,7 +81,7 @@ The script can be modified by changing the following variables:
 
 - path_input_video: You can select a different path to play a different video.
 - path_output_video: Path to save the output video file.
-- yolo_classes: List of YOLO class names. These can be added or removed based on requirement.
+- yolo_classes: List of YOLO class names. These can be added or removed based on requirements.
 - enable_track: If set to True, object tracking is enabled; if set to False, it is not.
 - size_of_batch: Batch size for YOLO inference.
 
