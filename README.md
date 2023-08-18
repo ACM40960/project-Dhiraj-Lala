@@ -40,7 +40,7 @@ YOLOv5 is a single-shot detector. It means it requires only one forward pass thr
 1. **Clone the repository**:
 
 ```bash
-git clone [https://github.com/your-username/your-repo](https://github.com/ACM40960/project-dwaghaye).git
+git clone [https://github.com/your-username/your-repo](https://github.com/ACM40960/project-Dhiraj-Lala).git
 cd your-repo
 
 ```
@@ -120,14 +120,14 @@ The script can be modified by changing the following variables:
 A real-time presentation of the original video, complete with object detection bounding boxes, class, and probability, as well as a simulated bird's-eye view with superimposed objects and a converted bird's-eye view with annotated centroids.
 
 
-<img width="300" height="200" alt="Screenshot 2023-08-17 123651" src="https://github.com/ACM40960/project-dwaghaye/assets/118671691/f9b9eee9-9e53-466e-b440-0db75132fd5c">
+<img width="300" height="200" alt="Screenshot 2023-08-17 123651" src="https://github.com/ACM40960/project-Dhiraj-Lala/blob/main/Vehice%20Detection.jpeg">
 
 
-<img src="https://github.com/ACM40960/project-dwaghaye/assets/118671691/f7a1a249-0260-4bd1-9f96-2d510d2e7f0d" width="300" height="200">
+<img src="https://github.com/ACM40960/project-Dhiraj-Lala/blob/main/Person%20Detection.jpeg" width="300" height="200">
 
 Bird's Eye View:
 
-<img src="https://github.com/ACM40960/project-dwaghaye/assets/118671691/1887b1d1-51e1-4b41-afe4-1a4d89e1a268" width="300" height="200">
+<img src="https://github.com/ACM40960/project-Dhiraj-Lala/blob/main/Bird's%20Eye%20View.jpeg" width="300" height="200">
 
 
 ## Acknowledgements 📝
